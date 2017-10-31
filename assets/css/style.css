@@ -1,0 +1,134 @@
+/* 
+========================================
+  Custom Styles
+========================================
+*/
+body {
+	background: #fff;
+	width: auto;
+	font: 400 14px/20px Georgia, Times, "Times New Roman", serif;
+}
+/*
+ ========================================
+  Grid
+  ========================================
+*/
+.container {
+	width: 960px;
+	background: #ddd;
+	position: absolute;
+	left: auto;
+	top: 60px
+}
+.primary-box {
+	width: 650px;
+	display: inline-block;
+	background: #fff;
+	padding: 15px 5px;
+	border: none;
+	margin: 20px 2px 20px 30px;
+}
+aside {
+	width: 270px;
+	display: inline-block;
+	background: #fff;
+	padding: 2px;
+	border: none;
+	margin: 2px;
+}
+header {
+	border-bottom: thick;
+	border-bottom-color: #ccc;
+}
+.primary-box-heading {
+	display: block;
+	margin: 5px;
+	padding 5px 0;
+	border-bottom: 2px;
+	border-bottom-color: #fff;
+}
+/*
+ ========================================
+  Images
+  ========================================
+*/
+.social-logo {
+	display: inline-block;
+	width: auto;
+	height: 50px
+}
+.gallery-image {
+	display: inline-block;
+	width: 35%;
+}
+.text-wrapped-image {
+	display: inline-block;
+	width: auto;
+	height: 200px;
+}
+/*
+ ========================================
+  Navigation
+  ========================================
+*/
+nav {
+	color: #777;
+	display: inline-block;
+	position: absolute;
+	right: 20px;
+	top: 10px;
+	font: 400 10px/14px Georgia, Times, "Times New Roman", serif;
+}
+/*
+ ========================================
+  Header
+  ========================================
+*/
+logo {
+	display: inline-block;
+	background: #4aaaa5;
+	padding: 20px 5px;
+	font: small-caps 700 20px/26px Georgia, Times, "Times New Roman", serif;
+	color: #eee;
+	text-align: center;
+}
+/*
+ ========================================
+  Buttons
+  ========================================
+*/
+.button {
+	padding: 5px;
+	border: 0;
+	margin: 0;
+}
+/*
+ ========================================
+  Links
+  ========================================
+*/
+a:hover {
+	color: #5A5A5A;
+}
+a {
+	color: #777;
+	text-decoration: none;
+}
+/*
+ ========================================
+  Typogrophy
+ ========================================
+*/
+h1 {
+	font: 700 22px/26px Georgia, Times, "Times New Roman", serif;
+}
+h2 {
+	font: 700 20px/24px Georgia, Times, "Times New Roman", serif;
+}
+h3 {
+	font: 700 18px/24px Georgia, Times, "Times New Roman", serif;
+}
+h2,
+h3 {
+	color: #4aaaa5;
+}
